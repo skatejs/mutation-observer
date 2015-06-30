@@ -1,0 +1,31 @@
+{
+  "name": "polyfill-mutation-observer",
+  "version": "1.0.0",
+  "description": "Mutation Observer polyfill that only polyfills functionality that Skate needs to function.",
+  "main": "src/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "chippy": "treshugart/chippy#dfc4c5022a103e81eeb0404c8026ddb1ca5fd6da",
+    "gulp": "^3.8.11",
+    "gulp-auto-task": "0.0.1"
+  },
+  "scripts": {
+    "deploy": "gulp deploy",
+    "dist": "gulp dist",
+    "docs": "gulp docs",
+    "lib": "gulp lib",
+    "lint": "gulp lint",
+    "release": "gulp release",
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skatejs/polyfill-mutation-observer.git"
+  },
+  "author": "Trey Shugart <treshugart@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skatejs/polyfill-mutation-observer/issues"
+  },
+  "homepage": "https://github.com/skatejs/polyfill-mutation-observer#readme"
+}
