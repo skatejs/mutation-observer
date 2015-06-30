@@ -1,6 +1,5 @@
-import debounce from '../util/debounce';
-import elementContains from '../util/element-contains';
-import objEach from '../util/obj-each';
+import debounce from './util/debounce';
+import elementContains from './util/element-contains';
 
 var Attr = window.Attr;
 var elementPrototype = window.HTMLElement.prototype;
