@@ -1,6 +1,6 @@
 {
-  "name": "polyfill-mutation-observer",
-  "version": "1.0.0",
+  "name": "skatejs-polyfill-mutation-observer",
+  "version": "0.0.0",
   "description": "Mutation Observer polyfill that only polyfills functionality that Skate needs to function.",
   "main": "src/index.js",
   "dependencies": {},
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/skatejs/polyfill-mutation-observer.git"
+    "url": "git+https://github.com/skatejs/polyfill-mutation-observer"
   },
   "author": "Trey Shugart <treshugart@gmail.com>",
   "license": "MIT",
