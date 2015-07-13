@@ -285,4 +285,5 @@ MutationObserver.prototype = {
   isFixingIe = true;
 }();
 
-export default MutationObserver;
+// Don't clobber the global.
+export default window.SkateMutationObserver = MutationObserver;
