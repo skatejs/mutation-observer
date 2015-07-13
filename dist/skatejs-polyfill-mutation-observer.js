@@ -372,7 +372,8 @@ __020b843f9bfa1d0e87b7a52a123b2970 = (function () {
     isFixingIe = true;
   })();
   
-  exports['default'] = MutationObserver;
+  // Don't clobber the global.
+  exports['default'] = window.SkateMutationObserver = MutationObserver;
   module.exports = exports['default'];
   
   return module.exports;
