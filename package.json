@@ -2,7 +2,7 @@
   "name": "skatejs-polyfill-mutation-observer",
   "version": "0.0.0",
   "description": "Mutation Observer polyfill that only polyfills functionality that Skate needs to function.",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "dependencies": {},
   "devDependencies": {
     "chippy": "treshugart/chippy#dfc4c5022a103e81eeb0404c8026ddb1ca5fd6da",
