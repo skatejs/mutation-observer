@@ -1,3 +1,3 @@
-# JS Lib
+# polyfill-mutation-observer
 
-Generic JavaScript library project skeleton.
+**PLEASE NOTE: This project is no longer maintained and only here for backwards compatibilty and testing purposes**
